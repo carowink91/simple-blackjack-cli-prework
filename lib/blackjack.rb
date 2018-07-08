@@ -46,7 +46,7 @@ def hit? (card_total)
   end
 end
 
-def runner (card_total)
+def runner
   welcome
   initial_round
   until card_total > 21
